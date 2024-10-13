@@ -24,7 +24,7 @@ public class ReadWriteFile {
     try
     {
         BufferedWriter writeDetails = new BufferedWriter(new FileWriter("phoneBookInfo.txt", true)); //access the file and write information to it. The "true" allow the writing of now info without overwriting current info 
-        //writeDetails.write("");
+       
         writeDetails.close();  //close the file after writing to it
     }
     catch (IOException e)
